@@ -62,11 +62,11 @@ Kun metasploi oli päällä, tein uuden workspacen komennolla: `workspace --add 
 
 ![Screenshot 2023-04-02 124510](https://user-images.githubusercontent.com/116954333/229345279-39a124dc-53a4-4a00-8887-79da73011627.png)
 
-Koska lokaali verkkoni on osoiteavaruudessa 192.168.60.X niin skannasin ´db_nmap -sn 192.168.60.1-254´, jotta sain tulokset kaikista 254:stä osoitteesta, jonka jälkeen tarkistin komennolla: ´hosts´, että mitkä osoitteet ovat käytössä.
+Koska lokaali verkkoni on osoiteavaruudessa 192.168.60.X niin skannasin `db_nmap -sn 192.168.60.1-254`, jotta sain tulokset kaikista 254:stä osoitteesta, jonka jälkeen tarkistin komennolla: `hosts`, että mitkä osoitteet ovat käytössä.
 
 ![Screenshot 2023-04-02 145341](https://user-images.githubusercontent.com/116954333/229351198-e5f47f09-967b-4da3-9ad8-2008762d238e.png)
 
-Sain tuloksen, että osoitteet 192.168.60.1-4 ovat käytössä, joten skannasin seuraavaksi komennolla ´db_nmap 192.168.60.1-3´, että sain porttitiedot selville:
+Sain tuloksen, että osoitteet 192.168.60.1-4 ovat käytössä, joten skannasin seuraavaksi komennolla `db_nmap 192.168.60.1-4`, että sain porttitiedot selville:
 
 ![Screenshot 2023-04-02 145833](https://user-images.githubusercontent.com/116954333/229351462-794d7831-2505-4131-abfb-5e2ec892d264.png)
 
