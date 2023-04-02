@@ -88,12 +88,21 @@ Esimerkiksi ftp portti: </br>
 
 __f) Murtaudu Metasploitablen VsFtpd-palveluun Metasploitilla (search vsftpd, use 0, set RHOSTS - varmista osoite huolella, exploit, id)__
 
-Aloitin murtautumisen komennolla: `search vsftpd`
+Aloitin murtautumisen komennolla: `search vsftpd`, joka antoi hyvää infoa moduulin/exploitin käytöstä. </br>
+0 on exploitin käytössä automaattinen/oletus kohde, joten valitsin sen. </br>
+Annoin komennon `use 0`, jonka jälkeen exploit oli valittuna. </br>
+Sitten annoin komennon: `options`, jotta sain selville, mitä exploit vaatii toimiakseen.
 
+![Screenshot 2023-04-02 155258](https://user-images.githubusercontent.com/116954333/229354134-bee3af11-8491-475c-9df4-f02a45ce91f1.png)
 
+Tulosteen perusteella exploit vaatii kohteen (RHOSTS) ja portin (RPORT). </br>
+Porttitieto exploitilla on jo valmiina, koska käytin aiemmin komentoa `use 0`, joten se tiesi automaattisesti käyttää hyökkäyksessä porttia 21. </br>
+Seuraavaksi määritin kohteen komennolla: `setg RHOSTS 192.168.60.3`, joka oli siis Metasploitablen osoite. </br>
+Lopuksi annoin komennon: `exploit`, joka ajoi hyökkäyksen.
 
+![Screenshot 2023-04-02 160317](https://user-images.githubusercontent.com/116954333/229354558-d34370a3-7584-4d8b-b3e5-84a7c02e8855.png)
 
-
+Murtauduin onnistuneesti Metasploitablen VsFtpd-palveluun Metasploitilla.
 
 
 
