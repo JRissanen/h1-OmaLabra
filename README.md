@@ -44,10 +44,10 @@ Adapterin irroittaminen kesken virtuaalikoneen päällä ollessa onnistuu hiiren
 
 ![Screenshot 2023-04-02 110353](https://user-images.githubusercontent.com/116954333/229344302-fc1fd08d-4528-49cd-8737-1957821f7c00.png)
 
-Nyt kumpikaan kone ei ole enää Internettiin yhteydessä, joten seuraavaksi testataan koneiden välinen yhteys.  </br>
+Nyt kumpikaan kone ei ole enää Internettiin yhteydessä, joten seuraavaksi testataan koneiden välisen yhteyden.  </br>
+Se onnistui antamalla Metasploitable koneella 'ifconfig' komennon
 
-
-
+![Screenshot 2023-04-02 123314](https://user-images.githubusercontent.com/116954333/229344672-a6f0f582-5e6e-484d-89f6-fcd617ec0106.png)
 
 
 
