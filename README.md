@@ -65,7 +65,7 @@ Koska lokaali verkkoni on osoiteavaruudessa 192.168.56.X niin skannasin ´db_nma
 
 ![Screenshot 2023-04-02 125353](https://user-images.githubusercontent.com/116954333/229345656-b88741ad-0bd5-419e-baf6-2ce00b064436.png)
 
-Sain tuloksen, että osoitteet 192.168.56.1 ja 192.168.56.100-102 ovat käytössä ja niihin kuuluu myös aiemmin pingattu metasploitable koneen lokaali osoite. </br>
+Sain tuloksen, että osoitteet 192.168.56.1 ja 192.168.56.100-102 ovat käytössä, joten skannasin ne komennolla ´db_nmap 192.168.56.100-102´, että sain porttitiedot selville, jonka jälkeen komennolla: ´services´ </br>
 Kirjoitin lokaalin osoitteen selaimeen ja se oli Metasploitable 2:n verkkosivu.
 
 ![Screenshot 2023-04-02 130955](https://user-images.githubusercontent.com/116954333/229346709-ec216f29-c6ce-4986-8ffd-e005d4911f51.png)
@@ -74,6 +74,31 @@ __e) Porttiskannaa Metasploitable huolellisesti (db_nmap -A)__
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__Lähteet__
+
+https://terokarvinen.com/2023/tunkeutumistestaus-2023-kevat/#h1-omalabra </br>
+https://tuomasvalkamo.com/PenTestCourse/week-2/ </br>
+https://www.kali.org/get-kali/#kali-virtual-machines </br>
+https://sourceforge.net/projects/metasploitable/ </br>
 
 
 
