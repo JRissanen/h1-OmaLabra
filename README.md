@@ -2,13 +2,13 @@
 This is a repository for my own pen-testing environment for the Penetration testing course 2023.
 
 Olen tehnyt kaikki harjoitukset omalla tietokoneellani. </br>
-Koneen infot:
-Edition: Windows 10 Pro
-Version: 22H2
-OS build: 19045.2728
-Processor: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz   3.19 GHz
-Installed RAM: 16,0 GB
-System type: 64-bit operating system, x64-based processor
+Koneen infot: </br>
+Edition: Windows 10 Pro </br>
+Version: 22H2 </br>
+OS build: 19045.2728 </br>
+Processor: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz   3.19 GHz </br>
+Installed RAM: 16,0 GB </br>
+System type: 64-bit operating system, x64-based processor </br>
 
 Virtuaalikoneiden infot kerrotaan artikkelissa ja virtuaalikoneet ovat Oracle VM VirtualBoxissa, jonka versio on: Version 6.1.40.
 
