@@ -1,6 +1,29 @@
 # h1-OmaLabra
 This is a repository for my own pen-testing environment for the Penetration testing course 2023.
 
+__x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen 
+ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)__
+
+Darknet Diaries, Episode 115: Player Cheater Developer Spy:
+
+* Jaksossa perehdytään videopeleissä huijaamisen kulttuuriin.
+* Erilaisia huijauksia (peleistä riippuen) voidaan ostaa tilausmaksulla (esim. 29.90$ per viikko).
+* Tilausmaksu malli on pakollinen, koska pelejä patchataan jatkuvasti.
+* On myös olemassa monia huijaussivustoja, jotka myyvät huijauksia peleihin, mutta kyseiset huijaukset eivät toimi, tai
+ovat pahimmassa tapauksessa haittaohjelmia.
+* Yleinen tapa, jolla huijauksia kehitetään: huijauksenkehittäjä löytää huijauksen pelin koodia tutkiessaan -> 
+paketoi sen ja lähettää/myy sen jälleenmyyjälle -> jälleenmyyjä myy huijausta tilausmaksua vastaan.
+* Huijauksen löytänyt/kehittänyt henkilö voi tienata huijauksen merkityksestä riippuen muutamista dollareista
+useisiin satoihin tuhansiin dollareihin asti.
+* Huijauksia myyvillä verkkosivuilla on tarkat tunnistautumisprosessit asiakkaille.
+   * Jotta asiakas voidaan erottaa mahdollisista pelinkehittäjistä, jotka yrittävät ostaa huijauksia korjatakseen ne.
+* Pelifirmoilla on muutamista henkilöistä jopa yli 20 henkilön kokoisia tiimejä, joiden ainoa tehtävä on
+löytää/estää/patchata huijauksia.
+* Osa pelifirmoista hyödyntää anticheat-ohjelmia, jotka monitoroivat pelaajan peliä. Niiden avulla on mahdollista
+havaita esimerkiksi epäinhimillisen nopeat nappien painallukset tai automaattinen tähtäys (ampumapeleissä).
+* Pelifirmat ja huijaustenkehittäjät ovat jatkuvassa taistelussa keskenään.
+
+
 Olen tehnyt kaikki harjoitukset omalla tietokoneellani. </br>
 Koneen infot: </br>
 Edition: Windows 10 Pro </br>
