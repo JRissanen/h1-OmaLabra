@@ -127,23 +127,9 @@ Lopuksi annoin komennon: `exploit`, joka ajoi hyökkäyksen.
 
 Murtauduin onnistuneesti Metasploitablen VsFtpd-palveluun Metasploitilla.
 
-__n) Vapaaehtoinen: Murtaudu johonkin toiseen Metasploitablen palveluun.__
-
-
-
-
-
-
-
-
-
 __Lähteet__
 
 https://terokarvinen.com/2023/tunkeutumistestaus-2023-kevat/#h1-omalabra </br>
 https://tuomasvalkamo.com/PenTestCourse/week-2/ </br>
 https://www.kali.org/get-kali/#kali-virtual-machines </br>
 https://sourceforge.net/projects/metasploitable/ </br>
-
-
-
-
