@@ -12,8 +12,11 @@ System type: 64-bit operating system, x64-based processor
 
 Virtuaalikoneiden infot kerrotaan artikkelissa ja virtuaalikoneet ovat Oracle VM VirtualBoxissa, jonka versio on: Version 6.1.40.
 
-__a)__ ja __b)__
+__a) Lataa Kali Linux__ ja __b)Lataa Metasploitable 2__
 
 Aloitin lataamalla Kali Linuxin 64 bittisen virtuaalikoneen valmiin imagen. [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) </br>
 Sen jälkeen latasin metasploitable 2:sta myös virtuaalikone imagen. [Metasploitable 2](https://sourceforge.net/projects/metasploitable/) </br>
-Lisäsin molemmat koneet VirtualBoxiin
+Lisäsin molemmat koneet VirtualBoxiin: Oracle VM VirtualBox Manager -> File -> Import Appliance -> Browse -> Open.
+
+__c) Koneiden virtuaaliverkko__
+
