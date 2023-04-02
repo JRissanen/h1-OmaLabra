@@ -46,7 +46,7 @@ Adapterin irroittaminen kesken virtuaalikoneen päällä ollessa onnistuu hiiren
 ![Screenshot 2023-04-02 110353](https://user-images.githubusercontent.com/116954333/229344302-fc1fd08d-4528-49cd-8737-1957821f7c00.png)
 
 Nyt kumpikaan kone ei ole enää Internettiin yhteydessä, joten seuraavaksi testataan koneiden välisen yhteyden.  </br>
-Se onnistui antamalla Metasploitable koneella ´ifconfig´ komennon ja sen jälkeen ´ping´ komennon Kalista Metasploitablen lokaaliin osoitteeseen. </br>
+Se onnistui antamalla Metasploitable koneella `ifconfig` komennon ja sen jälkeen `ping` komennon Kalista Metasploitablen lokaaliin osoitteeseen. </br>
 
 ![Screenshot 2023-04-02 143437](https://user-images.githubusercontent.com/116954333/229350286-8dceca00-7e5b-419c-b773-3cd9935e2704.png)
 
@@ -54,7 +54,7 @@ Yhteys kunnossa.
 
 __d) Etsi Metasploitable porttiskannaamalla (db_nmap -sn). Tarkista selaimella, että löysit oikean IP:n - Metasploitablen etusivulla lukee Metasploitable.__
 
-Aloitin antamalla komennon ´msfdb run´, jotta sain metasploit ohjelman käyntiin. </br>
+Aloitin antamalla komennon `msfdb run`, jotta sain metasploit ohjelman käyntiin. </br>
 
 ![Screenshot 2023-04-02 124149](https://user-images.githubusercontent.com/116954333/229345145-803bf742-d8dc-4dfe-b135-2fd1772a3ca9.png)
 
@@ -62,14 +62,14 @@ Kun metasploi oli päällä, tein uuden workspacen, nimesin sen msploi2. </br>
 
 ![Screenshot 2023-04-02 124510](https://user-images.githubusercontent.com/116954333/229345279-39a124dc-53a4-4a00-8887-79da73011627.png)
 
-Koska lokaali verkkoni on osoiteavaruudessa 192.168.56.X niin skannasin ´db_nmap -sn 192.168.56.1-254´, jotta sain tulokset kaikista 254:stä osoitteesta, jonka jälkeen tarkistin komennolla: ´hosts´, että mitkä osoitteet ovat käytössä.
+Koska lokaali verkkoni on osoiteavaruudessa 192.168.60.X niin skannasin ´db_nmap -sn 192.168.60.1-254´, jotta sain tulokset kaikista 254:stä osoitteesta, jonka jälkeen tarkistin komennolla: ´hosts´, että mitkä osoitteet ovat käytössä.
 
 ![Screenshot 2023-04-02 125353](https://user-images.githubusercontent.com/116954333/229345656-b88741ad-0bd5-419e-baf6-2ce00b064436.png)
 
-Sain tuloksen, että osoitteet 192.168.56.1 ja 192.168.56.100-102 ovat käytössä, joten skannasin ne komennolla ´db_nmap 192.168.56.100-102´, että sain porttitiedot selville, jonka jälkeen komennolla: ´services´ </br>
+Sain tuloksen, että osoitteet 192.168.60.0-3 ovat käytössä, joten skannasin seuraavaksi komennolla ´db_nmap 192.168.60.1-3´, että sain porttitiedot selville, jonka jälkeen komennolla: `services`  </br>
 Kirjoitin lokaalin osoitteen selaimeen ja se oli Metasploitable 2:n verkkosivu.
 
-![Screenshot 2023-04-02 130955](https://user-images.githubusercontent.com/116954333/229346709-ec216f29-c6ce-4986-8ffd-e005d4911f51.png)
+
 
 __e) Porttiskannaa Metasploitable huolellisesti (db_nmap -A)__
 
