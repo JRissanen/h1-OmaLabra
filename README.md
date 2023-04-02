@@ -25,14 +25,15 @@ Aloitin menemällä VirtualBoxin Managerissa: File -> Host Network Manager. </br
 Seuraavaksi lisäsin uuden VirtualBox Host-Only Ethernet Adapterin kohdasta: 'Create' ja määritin DHCP Serverin päälle, jotta verkko osaa itse hakea oikeat osoitetiedot. </br>
 Host-Only Ethernet Adapter mahdollistaa sen, että Kali-kone ja Metasploitable-kone ovat yhteydessä toisiinsa, mutta kumpikaan ei ole yhteydessä verkkoon, joten portti skannaukset yms tunkeutuminen on turvallista ja laillista. </br>
 
-![Screenshot 2023-04-02 115658](https://user-images.githubusercontent.com/116954333/229343980-d7f5484c-9f43-4b4c-b2b6-8a1dc169ddb7.png)
+![Screenshot 2023-04-02 142622](https://user-images.githubusercontent.com/116954333/229350004-b3531950-8d05-4a05-9c9d-044680b3efdf.png)
+
 
 Jätin Kaliin myös toisen Network Adapterin, jonka laitoin NAT:in taakse, jotta se on irroitettavissa kun Internet-yhteys halutaan katkaista. </br>
 Lopullinen kofiguraatio on siis: </br>
-Metasploitable 2: Settings -> Network -> Adapter 1 = Host-Only Adapter. Mitään muuta adapteria ei tarvita Metasploitablelle. </br>
-Kali Linux: Settings -> Network -> Adapter 1 = NAT ja Adapter 2 = Host-Only Adapter. 
+Metasploitable 2: Settings -> Network -> Adapter 1 = Host-Only Adapter (uusi juuri luotu Adapter #2). Mitään muuta adapteria ei tarvita Metasploitablelle. </br>
+Kali Linux: Settings -> Network -> Adapter 1 = NAT ja Adapter 2 = Host-Only Adapter (uusi juuri luotu Adapter #2). 
 
-![Screenshot 2023-04-02 110629](https://user-images.githubusercontent.com/116954333/229343997-d1135a28-9e1a-4cea-b6f0-538578194af0.png)
+![Screenshot 2023-04-02 142738](https://user-images.githubusercontent.com/116954333/229350055-17aa1872-02c3-4d99-98f2-db1a73c5b868.png)
 
 Sitten testasin yhteyttä Kalin ja Metasploitablen välillä.  </br>
 Ensin piti varmistaa, että kumpikaan kone ei saa Internet-yhteyttä, tein sen pingaamalla googlea.  </br>
@@ -47,7 +48,7 @@ Adapterin irroittaminen kesken virtuaalikoneen päällä ollessa onnistuu hiiren
 Nyt kumpikaan kone ei ole enää Internettiin yhteydessä, joten seuraavaksi testataan koneiden välisen yhteyden.  </br>
 Se onnistui antamalla Metasploitable koneella ´ifconfig´ komennon ja sen jälkeen ´ping´ komennon Kalista Metasploitablen lokaaliin osoitteeseen. </br>
 
-![Screenshot 2023-04-02 123314](https://user-images.githubusercontent.com/116954333/229344672-a6f0f582-5e6e-484d-89f6-fcd617ec0106.png)
+![Screenshot 2023-04-02 143437](https://user-images.githubusercontent.com/116954333/229350286-8dceca00-7e5b-419c-b773-3cd9935e2704.png)
 
 Yhteys kunnossa.
 
