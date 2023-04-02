@@ -104,7 +104,7 @@ Lopuksi annoin komennon: `exploit`, joka ajoi hyökkäyksen.
 
 Murtauduin onnistuneesti Metasploitablen VsFtpd-palveluun Metasploitilla.
 
-
+__n) Vapaaehtoinen: Murtaudu johonkin toiseen Metasploitablen palveluun.__
 
 
 
